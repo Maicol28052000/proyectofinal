@@ -1,0 +1,18 @@
+div{
+    background-color: #0A3143;
+}
+#logo{
+    background-color:  #0A3143;
+}
+
+#secciones{
+    background-color: #0A3143;
+
+}
+#redes{
+    display: flex;
+    justify-content: END;
+    align-items: center;
+}
+
+
