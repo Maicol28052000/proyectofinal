@@ -1,0 +1,28 @@
+*{margin: 0%;padding: 0%;box-sizing: border-box;}
+
+.row{
+    background-color: #DCDCDC;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+div{
+    color: white;
+}
+#mi-foto{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border-color: black;
+}
+#foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
