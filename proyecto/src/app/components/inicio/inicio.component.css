@@ -1,0 +1,36 @@
+*{margin: 0%;padding: 0%;box-sizing: border-box;}
+
+.container-fluid{
+    background-color: black;
+    width: 100%;
+}
+.navbar-toggler{
+    border: none !important;
+}.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+ul li a{
+    color: white;
+    width: 150px;
+} 
+
+#login:hover{
+    color: rgb(192, 27, 129) !important;
+    box-shadow: 0 0 10px rgb(192, 27, 129),0 0 40px rgb(192, 27, 129),0 0 80px rgb(192, 27, 129);
+}
+
+
+#navbarTogglerDemo03{
+    padding: 15px 30px;
+    transition: 0,2s;
+}
+
+.nav-link{
+    color: white;
+    padding: 15px 30px;
+    transition: 0,2s;
+}
+.nav-link:hover{
+    color: rgb(192, 27, 129) !important;
+    box-shadow: 0 0 10px black,0 0 40px black,0 0 80px black;
+}
