@@ -1,10 +1,9 @@
 *{margin: 0%;padding: 0%;box-sizing: border-box;}
 
 .row{
-    background-color: #002444;
+    background:linear-gradient(45deg,black,rgb(0, 0, 0),rgb(248, 242, 242),rgb(0, 0, 0));
     width: 100%;
     height: 600px;
-    background-size: cover;
 }
 div{
     color: white;
@@ -13,7 +12,6 @@ div{
     height: 400px;
     width: 400px;
     border-radius: 50%;
-    border-color: black;
 }
 #foto{
     display: flex;
