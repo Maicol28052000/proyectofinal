@@ -16,6 +16,9 @@ nav{                     /*con esto fijamos el nav*/
     display: inline;
     padding-right: 30px;
 }
+#proyectos{
+    padding-left: 0%;
+}
 
 ul li a{                   /*tamaño y color de letra de los link*/
     color: white;
@@ -27,4 +30,6 @@ ul li a{                   /*tamaño y color de letra de los link*/
     padding:0px 25px 0px 25px;
     transition: 1s;
 }
-
+.nav-link{
+    font-family:monospace;
+}
