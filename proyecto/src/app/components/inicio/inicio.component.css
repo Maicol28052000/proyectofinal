@@ -6,17 +6,23 @@ nav{                 /*con esto fijamos el nav*/
     height: 95px;
 }
 .container-fluid{         /*fondo para el container padre dentro del nav*/
-    background: linear-gradient(45deg,red,red,black,black);
+    background: linear-gradient(45deg,#393d42,#393d42,black,black);
     width: 100%;
 }
 
 .menu{                     /*da borde redondeado al icono del menu desplegable*/
     border-radius: 50%;
 }
-ul li a{
+ul a{                      /*color y espacio entre los link*/
     color: white;
-    width: 200px;
-    letter-spacing: 3px;
+    margin-right: 25px;
+    letter-spacing: 7px;
+}
+#login{                    /*ponemos color al login*/
+    color: white;
+}
+.nav-link:hover{           /*efecto hover a los link*/
+    color: #2196f3 !important;
 }
 
 
