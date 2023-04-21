@@ -1,9 +1,12 @@
 *{margin: 0%;padding: 0%;box-sizing: border-box;}
+.container-fluid{
+    scroll-margin-top: 95px;
+}
 
 .row{
     background:linear-gradient(45deg,black,rgb(0, 0, 0),rgb(248, 242, 242),rgb(0, 0, 0));
     width: 100%;
-    height: 600px;
+    height: 90vh;
 }
 div{
     color: white;

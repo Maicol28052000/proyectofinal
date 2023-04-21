@@ -1,8 +1,9 @@
 *{margin: 0%;padding: 0%;box-sizing: border-box;}
 
-nav{                     /*con esto fijamos el nav*/
+nav{                 /*con esto fijamos el nav*/
     position:sticky;
     top: 0;
+    height: 95px;
 }
 .container-fluid{         /*fondo para el container padre dentro del nav*/
     background: linear-gradient(45deg,red,red,black,black);
@@ -12,24 +13,17 @@ nav{                     /*con esto fijamos el nav*/
 .menu{                     /*da borde redondeado al icono del menu desplegable*/
     border-radius: 50%;
 }
-#home{                     /*hace que el todo del contenido*/
-    display: inline;
-    padding-right: 30px;
-}
-#proyectos{
-    padding-left: 0%;
-}
-
-ul li a{                   /*tamaño y color de letra de los link*/
+ul li a{
     color: white;
     width: 200px;
-    letter-spacing: 4px;
-} 
+    letter-spacing: 3px;
+}
+
 
 #navbarTogglerDemo03{       /*desplazamiento para vista de pantallas chicas*/
     padding:0px 25px 0px 25px;
     transition: 1s;
 }
-.nav-link{
+.nav-link{                   /*tamaño y color de letra de los link*/
     font-family:monospace;
 }

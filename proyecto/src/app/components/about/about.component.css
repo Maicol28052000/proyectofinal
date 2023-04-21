@@ -1,0 +1,8 @@
+*{margin: 0%;padding: 0%;box-sizing: border-box;}
+
+.container-fluid{
+    scroll-margin-top: 95px;
+    background-color: rgb(209, 206, 11);
+    width: 100%;
+    height: 90vh;
+}
