@@ -1,8 +1,13 @@
 *{margin: 0%;padding: 0%;box-sizing: border-box;}
 
 .container-fluid{
+    background: linear-gradient(90deg,#393d42,#393d42,black,black);
+    border: 25px solid #2196f3;
+    border-top: 0;
+    border-bottom: 0;
     scroll-margin-top: 94px;
     background-color:#393d42;
     width: 100%;
     height: 90vh;
 }
+
