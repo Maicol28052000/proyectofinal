@@ -8,7 +8,6 @@ nav{                 /*con esto fijamos el nav*/
 .container-fluid{         /*fondo para el container padre dentro del nav*/
     background: linear-gradient(45deg,#393d42,#393d42,black,black);
     width: 100%;
-    
 }
 
 .menu{                     /*da borde redondeado al icono del menu desplegable*/
